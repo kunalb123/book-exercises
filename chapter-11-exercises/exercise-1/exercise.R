@@ -1,3 +1,6 @@
+
+### HAD TROUBLE INSTALLING DEVTOOLS SO I FOLLOWED ALONG 
+
 # Exercise 1: working with data frames (review)
 
 # Install devtools package: allows installations from GitHub
