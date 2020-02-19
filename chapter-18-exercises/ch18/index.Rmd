@@ -1,0 +1,20 @@
+---
+title: "Movie Review"
+author: "Kunal Bhandarkar"
+date: "2/14/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+source(exercise.R)
+```
+
+## Headline of Review
+`r review_variable`
+
+> `r summary_variable`
+
+```{r link, include=FALSE}
+link_markdown <- paste('[', 'the markdown link', ']', '(', link, ')') # format for markdown [discription](link)
+```
+This sentence contains `r link_markdown` cleverly.
